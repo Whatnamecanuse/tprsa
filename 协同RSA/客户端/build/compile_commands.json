@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ye/Downloads/TPRSA_Interface/客户端/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9   -g   -std=gnu11 -o CMakeFiles/CLIENT.dir/tcp_client.c.o   -c /home/ye/Downloads/TPRSA_Interface/客户端/tcp_client.c",
+  "file": "/home/ye/Downloads/TPRSA_Interface/客户端/tcp_client.c"
+}
+]

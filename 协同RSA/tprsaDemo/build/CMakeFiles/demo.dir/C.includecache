@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ye/Downloads/tprsa/src/demo_div_key.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+openssl/tprsa.h
+-
+

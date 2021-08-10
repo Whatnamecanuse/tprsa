@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ye/Downloads/TPRSA_Interface/服务端/src/tcp_server.c
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+sys/wait.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+openssl/ssl.h
+-
+openssl/err.h
+-
+openssl/tprsa.h
+-
+time.h
+-
+

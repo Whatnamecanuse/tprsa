@@ -1,0 +1,1 @@
+/bin/gcc-9 -g  -rdynamic CMakeFiles/demo.dir/src/demo_div_key.c.o  -o demo  -lcrypto -lssl 

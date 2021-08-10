@@ -1,0 +1,3 @@
+/home/ye/Downloads/TPRSA_Interface/客户端/build/CMakeFiles/rebuild_cache.dir
+/home/ye/Downloads/TPRSA_Interface/客户端/build/CMakeFiles/edit_cache.dir
+/home/ye/Downloads/TPRSA_Interface/客户端/build/CMakeFiles/CLIENT.dir

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/CLIENT.dir/tcp_client.c.o  -o CLIENT   -L/home/ye/Downloads/TPRSA_Interface/客户端/lib  -Wl,-rpath,/home/ye/Downloads/TPRSA_Interface/客户端/lib -lcrypto -lssl 

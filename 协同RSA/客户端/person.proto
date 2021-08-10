@@ -1,0 +1,49 @@
+syntax "proto3";
+
+package my.project;
+
+message Person{
+    int32 id = 1;
+    string name = 2;
+    float height = 3;
+    float weight = 4;
+    bytes avatar = 5;
+    string email = 6;
+    bool email_verified = 7;
+
+    Gender gender = 9;
+
+    Date birthday = 11;
+
+    repeated string phone_numbers = 8; // packed
+    reserved 10;
+
+    enum Gender{
+        option allow_alies = true;
+        NOT_SPECIFIDE = 0;
+        FEMALE = 1;
+        MALE = 2;
+
+        WOMEN =1;
+        MAN = 2;
+    }
+
+    message Address {
+        string province = 1;
+        string city = 2;
+        string zip_code = 3;
+        string street = 4;
+        string num = 5;
+    }
+}
+
+
+message Date{
+    int32 year = 1;
+    int32 month = 2;
+    int32 day = 3;
+}
+
+
+
+

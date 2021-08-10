@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ye/Downloads/tprsa/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/demo.dir/src/demo_div_key.c.o   -c /home/ye/Downloads/tprsa/src/demo_div_key.c",
+  "file": "/home/ye/Downloads/tprsa/src/demo_div_key.c"
+}
+]
